@@ -6,12 +6,18 @@ package com.fortinet.jjse.challenge.one;
  * @author Onkar
  */
 public class Node {
-	Node next;
-	int value;
+	public Node next;
+	public int value;
 
 	public Node(int val) {
 		super();
 		this.value = val;
 		this.next = null;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Node [" + this.value + "]";
 	}
 }
