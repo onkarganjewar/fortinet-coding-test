@@ -1,3 +1,26 @@
+# Eclipse artifacts, including WTP generated manifests
+classes/
+/build
+buildSrc/build
+/spring-*/build
+/src/asciidoc/build
+target/
+.classpath
+spring-*/src/main/java/META-INF/MANIFEST.MF
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git merge resolve conflict backup files
+*.orig
+
 # Compiled class file
 *.class
 
