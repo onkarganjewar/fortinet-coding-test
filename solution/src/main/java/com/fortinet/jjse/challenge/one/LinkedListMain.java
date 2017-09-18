@@ -41,7 +41,9 @@ public class LinkedListMain {
 	}
 
 	/**
-	 * Reverses the given linked list
+	 * Reverses the given linked list. <br>
+	 * Time Complexity = O(n)<br>
+	 * Space Complexity = O(1)
 	 * 
 	 * @param head
 	 *            Head of the given linked list
@@ -80,7 +82,7 @@ public class LinkedListMain {
 		sb.delete(0, sb.toString().length());
 		if (head == null)
 			return sb.toString();
-//			return "null";
+		// return "null";
 		// For ex. 1->2->3->null
 		Node successor = head;
 		do {
