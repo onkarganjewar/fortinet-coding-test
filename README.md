@@ -18,7 +18,7 @@ public Node reverse(Node head){
 // JUnit test cases 
 ```
 
-2. Sum of multidimensional Array. require no extra space, no recursion. 
+2. Sum of multidimensional Array. (Requires __no extra space, no recursion__.) 
 
 ```java
 class MultiDimensionArray {
